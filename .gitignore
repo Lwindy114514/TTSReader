@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 本机 SDK 路径（每台机器不同，不要提交）
+local.properties
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 可再生成的大测试数据（体积大，用 testdata/make_testdata.py 重新生成）
+testdata/novel_big_utf8.txt
+testdata/toc_big.txt
